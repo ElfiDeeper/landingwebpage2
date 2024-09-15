@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>			
+	<head>
+		<title>SelfTaught</title>
+		<link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity = "sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel ="stylesheet">
+		<link rel="stylesheet" href ="vendors/grid.css">
+		<!-- You just have to link the href the same level as the html doing and it is working-->
+		<link rel="stylesheet" type="text/css" href="resources/style2.css">
+<!-- Giới thiệu font awesome:
+Là font chữ mà bạn có thể chỉnh như kiểu chữ text bình thường, giúp tạo icon hoặc label dễ dàng cho website, được sử dụng rất phổ biến.-->
+	</head>
+	<body>
+		<header>
+			<a href ="#"><img class="logo" src="./resources/img/logo.png" alt="logo"></a>
+			<ul class="main-nav">
+				<!-- unordered list -->
+				<li><a href="#">How Clients Think</a></li>
+				<li><a href ="#">About</a></li>
+				<li><a href ="#">Products</a></li>
+				<li><a href ="#">Contact</a></li>
+			</ul>	
+			<div class = "clearfix"></div>
+			<div class = "row">
+				<div class="heading-main-box">
+					<h1>
+						We will learn <br>English together<br>
+						So join with us
+					</h1>
+					<a href= "#" class="btn">Tell me more</a>
+					<a href= "#" class="btn">Join us </a>
+				</div>
+			</div>
+		</header>
+
+<!-- Background Linear-gradient
+Cú pháp
+background-image: linear-gradient (<hướng/ góc chuyển tiếp>, <màu 1>,<màu 2>, ...<màu n>),
+
+url(<link ảnh nền>);-->
+<!-- Trong đó: 
+
+<hướng/góc chuyển tiếp>: là hướng/góc chuyển tiếp từ màu này sang màu khác theo thứ tự màu quy định. Gồm: 
+
+Top to Bottom: hướng chuyển tiếp màu từ trên xuống. Là hướng mặc định của gradient.
+Left to Right: hướng chuyển tiếp màu từ trái sang phải.
+Đường chéo: hướng chuyển tiếp màu theo chiều ngang rồi tới chiều dọc (to top left, to bottom right,….).
+Góc: thay vì các hướng được xác định trước, bạn có thể quy định góc chuyển tiếp một cách chính xác để kiểm soát tốt hơn về hướng chuyển tiếp của màu so với phương pháp đường chéo.
+Áp dụng -->
+	<!-- <element class="row">
+		<element_con class = "col span-a-of-b"> </element_con>
+		 a và b là số 1 đến số 12 
+	</element> -->
+	<section class="about-section">
+		<div class = "row">
+			<h2>About us</h2>
+			<p class="p-long">
+				We are people that are studying English by ourselves, we believe that you don’t need to pay so much money for being good at English, we’re here to help you  
+			</p>
+		</div>
+		<div class = "row col">
+				<div class = "about-picture">
+					<img src="./resources/img/activities1.jpeg" alt ="activities1">
+					<p class="picture-title">
+						Team Working
+					</p>
+				</div>
+		
+				<div class= "about-picture">
+					<img src="./resources/img/activities2.jpeg" alt="activities2">
+					<p class = "picture-title">
+						Funny class
+					</p>
+				</div>
+
+				<div class = "about-picture">
+					<img src="./resources/img/activities3.jpeg" alt = "activities3">
+					<p class ="picture-title">
+						Be confident
+					</p>
+				</div>
+				
+				<div class = "about-picture">
+					<img src="./resources/img/activities4.jpeg" alt= "activities4">
+					<p class ="picture-title">
+						All our friends
+					</p>
+				</div>
+		</div> 
+	</section>	
+	<div class="products-section">
+		<h2>
+			Products
+		</h2>
+		<div class="col">
+			<div>
+				<div class = "product-box">
+					<h3>
+						pronunciation class
+					</h3>
+					<div class="product-price">
+						19$ <span>/ month</span>
+					</div>
+					<ul>
+						<li><i class ="fas fa-check small-icon"></i>Native voices</li>
+						<li><i class ="fas fa-check small-icon"></i>Master IPA</li>
+					</ul>
+					<div href="#" class="btn">Join us</div>
+				</div>
+			</div>
+			<div>
+				<div class = "product-box">
+					<h3>
+						speaking class
+					</h3>
+					<div class="product-price">
+						25$ <span>/ month</span>
+					</div>
+					<ul>
+						<li><i class ="fas fa-check small-icon"></i>Native speaking</li>
+						<li><i class ="fas fa-check small-icon"></i>Speaking naturelly</li>
+					</ul>
+					<div href="#" class="btn">Join us</div>
+				</div>
+			</div>
+			<div>
+				<div class ="product-box">
+					<h3>
+						speaking class
+					</h3>
+					<div class="product-price">
+						25$ <span>/ month</span>
+					</div>
+					<ul>
+						<li><i class ="fas fa-check small-icon"></i>Native speaking</li>
+						<li><i class ="fas fa-check small-icon"></i>Speaking naturelly</li>
+					</ul>
+					<div href="#" class="btn">Join us</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<section class="testimonials-section">
+	<h2>Testimonials</h2>
+	<div class="row col">
+		<div>
+			<blockquote>
+				<p>The course is very helpful, I can speak English fluently and I think The SF English became my second family, I love everyone very much. Thank you!</p>
+				<cite>
+					<img src="./resources/img/person5.jpeg" alt="person5">Nguyen Quy Duc
+				</cite>
+			</blockquote>
+		</div>
+		<div>
+			<blockquote>
+				<p>I believe that who came to This English centre would love this place as I did, when the course finished, I feel sad because studying in that place I always felt funny.</p>	
+					<cite>
+						<img src="./resources/img/person4.jpeg" alt="person4">Nguyen Dan Le
+					</cite>	
+			</blockquote>
+		</div>
+		<div>	
+			<blockquote>
+				<p>Trust me, you can master English just by joining this class, I did, so I believe that you can too. Hope that one day, you can come and join in this class.</p>
+				<cite>
+					<img src="./resources/img/person2.jpeg" alt="person2">Nguyen Tien Hung
+				</cite>	
+			</blockquote>
+		</div>	
+	</div>
+	</section>
+	</body>
+</html>

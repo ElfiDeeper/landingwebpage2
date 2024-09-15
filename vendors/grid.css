@@ -1,0 +1,36 @@
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.row {
+    zoom: 1;
+}
+
+.row:before, .row:after {
+    content:""; 
+    display:table;  
+}
+
+.row:after {
+    clear:both;
+}
+
+.col2 {
+    display: flex;
+    margin: 1% 0 1% 1.6%;
+    flex-wrap: wrap;
+}
+.col2 div {
+    flex: 1 1(50% 1%);
+}
+@media only screen and (max-width: 480px) {
+    .col2 div {
+        flex: 1 1 100%;
+    }
+}
+
+.col2:first-child { margin-left: 0;}
+
+.span-2-of-2 
